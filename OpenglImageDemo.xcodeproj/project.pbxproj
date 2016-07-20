@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7428109A1D3F4CCF00B486EC /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 742810981D3F4CCF00B486EC /* FragmentShader.glsl */; };
+		7428109B1D3F4CCF00B486EC /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 742810991D3F4CCF00B486EC /* VertexShader.glsl */; };
 		74787DE31D3F4B2B0064C25A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74787DE21D3F4B2B0064C25A /* main.m */; };
 		74787DE61D3F4B2B0064C25A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74787DE51D3F4B2B0064C25A /* AppDelegate.m */; };
 		74787DE91D3F4B2B0064C25A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74787DE81D3F4B2B0064C25A /* ViewController.m */; };
@@ -15,6 +17,14 @@
 		74787DF11D3F4B2B0064C25A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74787DEF1D3F4B2B0064C25A /* LaunchScreen.storyboard */; };
 		74787DFC1D3F4B2B0064C25A /* OpenglImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74787DFB1D3F4B2B0064C25A /* OpenglImageDemoTests.m */; };
 		74787E071D3F4B2B0064C25A /* OpenglImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74787E061D3F4B2B0064C25A /* OpenglImageDemoUITests.m */; };
+		74787E151D3F4B370064C25A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74787E141D3F4B370064C25A /* QuartzCore.framework */; };
+		74787E171D3F4B3F0064C25A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74787E161D3F4B3F0064C25A /* OpenGLES.framework */; };
+		74787E191D3F4B450064C25A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74787E181D3F4B450064C25A /* CoreGraphics.framework */; };
+		74787E1C1D3F4B5C0064C25A /* OpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74787E1B1D3F4B5C0064C25A /* OpenGLView.mm */; };
+		74787E281D3F4B7A0064C25A /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 74787E1E1D3F4B7A0064C25A /* GLESMath.c */; };
+		74787E291D3F4B7A0064C25A /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74787E211D3F4B7A0064C25A /* GLESUtils.m */; };
+		74787E2E1D3F4BFC0064C25A /* wooden.png in Resources */ = {isa = PBXBuildFile; fileRef = 74787E2C1D3F4BFC0064C25A /* wooden.png */; };
+		74787E2F1D3F4BFC0064C25A /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74787E2D1D3F4BFC0064C25A /* flower.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742810981D3F4CCF00B486EC /* FragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
+		742810991D3F4CCF00B486EC /* VertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
 		74787DDE1D3F4B2B0064C25A /* OpenglImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenglImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74787DE21D3F4B2B0064C25A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74787DE41D3F4B2B0064C25A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,19 @@
 		74787E021D3F4B2B0064C25A /* OpenglImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenglImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74787E061D3F4B2B0064C25A /* OpenglImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenglImageDemoUITests.m; sourceTree = "<group>"; };
 		74787E081D3F4B2B0064C25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74787E141D3F4B370064C25A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		74787E161D3F4B3F0064C25A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		74787E181D3F4B450064C25A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74787E1A1D3F4B5C0064C25A /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		74787E1B1D3F4B5C0064C25A /* OpenGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLView.mm; sourceTree = "<group>"; };
+		74787E1E1D3F4B7A0064C25A /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		74787E1F1D3F4B7A0064C25A /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		74787E201D3F4B7A0064C25A /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		74787E211D3F4B7A0064C25A /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		74787E221D3F4B7A0064C25A /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		74787E271D3F4B7A0064C25A /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		74787E2C1D3F4BFC0064C25A /* wooden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wooden.png; sourceTree = "<group>"; };
+		74787E2D1D3F4BFC0064C25A /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74787E191D3F4B450064C25A /* CoreGraphics.framework in Frameworks */,
+				74787E171D3F4B3F0064C25A /* OpenGLES.framework in Frameworks */,
+				74787E151D3F4B370064C25A /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +106,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		742810971D3F4CCF00B486EC /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				742810981D3F4CCF00B486EC /* FragmentShader.glsl */,
+				742810991D3F4CCF00B486EC /* VertexShader.glsl */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
 		74787DD51D3F4B2B0064C25A = {
 			isa = PBXGroup;
 			children = (
+				74787E181D3F4B450064C25A /* CoreGraphics.framework */,
+				74787E161D3F4B3F0064C25A /* OpenGLES.framework */,
+				74787E141D3F4B370064C25A /* QuartzCore.framework */,
 				74787DE01D3F4B2B0064C25A /* OpenglImageDemo */,
 				74787DFA1D3F4B2B0064C25A /* OpenglImageDemoTests */,
 				74787E051D3F4B2B0064C25A /* OpenglImageDemoUITests */,
@@ -101,10 +141,16 @@
 		74787DE01D3F4B2B0064C25A /* OpenglImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				742810971D3F4CCF00B486EC /* Shader */,
+				74787E1D1D3F4B7A0064C25A /* Utils */,
 				74787DE41D3F4B2B0064C25A /* AppDelegate.h */,
 				74787DE51D3F4B2B0064C25A /* AppDelegate.m */,
 				74787DE71D3F4B2B0064C25A /* ViewController.h */,
 				74787DE81D3F4B2B0064C25A /* ViewController.m */,
+				74787E1A1D3F4B5C0064C25A /* OpenGLView.h */,
+				74787E1B1D3F4B5C0064C25A /* OpenGLView.mm */,
+				74787E2C1D3F4BFC0064C25A /* wooden.png */,
+				74787E2D1D3F4BFC0064C25A /* flower.jpg */,
 				74787DEA1D3F4B2B0064C25A /* Main.storyboard */,
 				74787DED1D3F4B2B0064C25A /* Assets.xcassets */,
 				74787DEF1D3F4B2B0064C25A /* LaunchScreen.storyboard */,
@@ -138,6 +184,19 @@
 				74787E081D3F4B2B0064C25A /* Info.plist */,
 			);
 			path = OpenglImageDemoUITests;
+			sourceTree = "<group>";
+		};
+		74787E1D1D3F4B7A0064C25A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74787E1E1D3F4B7A0064C25A /* GLESMath.c */,
+				74787E1F1D3F4B7A0064C25A /* GLESMath.h */,
+				74787E201D3F4B7A0064C25A /* GLESUtils.h */,
+				74787E211D3F4B7A0064C25A /* GLESUtils.m */,
+				74787E221D3F4B7A0064C25A /* Quaternion.h */,
+				74787E271D3F4B7A0064C25A /* Vector.h */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +302,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7428109B1D3F4CCF00B486EC /* VertexShader.glsl in Resources */,
 				74787DF11D3F4B2B0064C25A /* LaunchScreen.storyboard in Resources */,
+				74787E2E1D3F4BFC0064C25A /* wooden.png in Resources */,
 				74787DEE1D3F4B2B0064C25A /* Assets.xcassets in Resources */,
+				74787E2F1D3F4BFC0064C25A /* flower.jpg in Resources */,
+				7428109A1D3F4CCF00B486EC /* FragmentShader.glsl in Resources */,
 				74787DEC1D3F4B2B0064C25A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +334,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				74787DE91D3F4B2B0064C25A /* ViewController.m in Sources */,
+				74787E1C1D3F4B5C0064C25A /* OpenGLView.mm in Sources */,
+				74787E281D3F4B7A0064C25A /* GLESMath.c in Sources */,
 				74787DE61D3F4B2B0064C25A /* AppDelegate.m in Sources */,
+				74787E291D3F4B7A0064C25A /* GLESUtils.m in Sources */,
 				74787DE31D3F4B2B0064C25A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +562,7 @@
 				74787E0D1D3F4B2B0064C25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74787E0E1D3F4B2B0064C25A /* Build configuration list for PBXNativeTarget "OpenglImageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +571,7 @@
 				74787E101D3F4B2B0064C25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74787E111D3F4B2B0064C25A /* Build configuration list for PBXNativeTarget "OpenglImageDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +580,7 @@
 				74787E131D3F4B2B0064C25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
